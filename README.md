@@ -9,7 +9,7 @@ SPA-MASK
 ·pytorch 1.8.1<br>
 ·python 3.8<br>
 SID
-·follow requirements.txt
+·follow requirements.txt<br>
 ### Train
 #### SPA-MASK
 Modify the config.yml to set your parameters and run:<br>
