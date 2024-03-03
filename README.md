@@ -7,7 +7,7 @@ Office Website：[TGU-UOW](http://tgu-uow.gitee.io/)
 ## Usage
 SPA-MASK
 ·pytorch 1.8.1<br>
-·python 3.8
+·python 3.8<br>
 SID
 ·follow requirements.txt
 ### Train
@@ -27,8 +27,8 @@ Although the image size we trained is 256*256, the predicted image can be any si
 python predict.py --config <path_to_config.yml_in_the_out_dir> --test_dir <path_to_a_directory_stored_test_data> --out_dir <path_to_an_output_directory> --pretrained <path_to_a_pretrained_model> --cuda
 ```
 #### SID
-1.Download the pretrained-model above and but them into ./checkpoint_path/model_name/..pth
-2.Set the path to the shadow-mask of the test set
+1.Download the pretrained-model above and but them into ./checkpoint_path/model_name/..pth<br>
+2.Set the path to the shadow-mask of the test set<br>
 3.
 ```
 python infer.py --model SIDPAMIwinp --name model_name --epoch best
