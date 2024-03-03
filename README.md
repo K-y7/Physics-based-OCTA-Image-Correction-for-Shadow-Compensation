@@ -1,8 +1,8 @@
 # Physics-based-OCTA-Image-Correction-for-Shadow-Compensation
 ## Intruduction
 Optical coherence tomography (OCT) is being widely applied in clinical studies to investigate insight of retina under the retinal pigment epithelium. Optical coherence tomography angiography (OCTA) is one of the functional extensions of OCT, for visualizing retinal circulation. Due to obstruction of light propagation, such as vitreous floaters or pupil boundaries, OCTA remains challenged by shadow artifacts that can disrupt volumetric data. Detecting and removing these shadow artifacts are crucial when quantifying indicators of retinal disease progression. We simplified an optical attenuation model of shadow formation in OCTA to a linear illumination transformation. And learn its parameters using an adversarial neural network. Our framework also
-consists of an existing neural networks for shadow detection. We experimented our method on 92 OCT/OCTA images of normal eyes, and compared the non-perfusion area (NPA), an index to measure retinal vascularity. The results shown that the NPA adjusted to reasonable range after image processing using our method and the average mean absolute error(MAE) values before and after artifact removal was 0.83.
-This method was developed by Kang Wang from TGU-UOW laboratory based on SpA-Former.<br>
+consists of an existing neural networks for shadow detection. We experimented our method on 92 OCT/OCTA images of normal eyes, and compared the non-perfusion area (NPA), an index to measure retinal vascularity. The results shown that the NPA adjusted to reasonable range after image processing using our method and the average mean absolute error(MAE) values before and after artifact removal was 0.83.<br>
+This method was developed by Kang Wang from TGU-UOW laboratory based on SpA and SID.<br>
 Office Website：[TGU-UOW](http://tgu-uow.gitee.io/)
 ## Usage
 SPA-MASK<br>
