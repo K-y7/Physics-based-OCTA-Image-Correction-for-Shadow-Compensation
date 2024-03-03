@@ -33,9 +33,10 @@ python predict.py --config <path_to_config.yml_in_the_out_dir> --test_dir <path_
 ```
 python infer.py --model SIDPAMIwinp --name model_name --epoch best
 ```
-#### SID
+
 ### Pretrained model
-Download the pretrained model shadow artifact-removal [Baidu Drive](https://pan.baidu.com/s/1Vh4FiW_cUK_0mXauz1mZsA) extract code：epzo  
+Download the pretrained model shadow artifact-removal [Baidu Drive](https://pan.baidu.com/s/1Vh4FiW_cUK_0mXauz1mZsA) extract code：epzo  <br>
+If you can't extract it,please contact us.
 
 
 ## Contact Us
@@ -46,3 +47,4 @@ liguangxu@tiangong.edu.cn
 Do not use for commercial purposes without permission.
 Copyright (c) [TGU-UOW](http://tgu-uow.gitee.io/)
 ## Acknowledgment
+The code is based on https://github.com/zhangbaijin/SpA-Former-shadow-removal and https://github.com/cvlab-stonybrook/SID
