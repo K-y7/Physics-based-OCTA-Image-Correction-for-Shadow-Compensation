@@ -5,10 +5,10 @@ consists of an existing neural networks for shadow detection. We experimented ou
 This method was developed by Kang Wang from TGU-UOW laboratory based on SpA-Former.<br>
 Office Website：[TGU-UOW](http://tgu-uow.gitee.io/)
 ## Usage
-SPA-MASK
+SPA-MASK<br>
 ·pytorch 1.8.1<br>
 ·python 3.8<br>
-SID
+SID<br>
 ·follow requirements.txt<br>
 ### Train
 #### SPA-MASK
