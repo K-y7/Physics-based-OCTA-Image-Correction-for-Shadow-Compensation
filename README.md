@@ -29,7 +29,7 @@ SPA-MASK<br>
 SID<br>
 ·follow requirements.txt<br>
 ### Train
-#### SPA-MASK
+#### SPA-mask
 Modify the config.yml to set your parameters and run:<br>
 ```
 python train.py
@@ -39,7 +39,7 @@ To generate "train_params": please run the ipython notebook included in "data_pr
 
 Please refer to the training script in the "scripts" folder.
 ### Test
-#### SPA-MASK
+#### SPA-mask
 Although the image size we trained is 256*256, the predicted image can be any size, you just need to modify the length and width in config.yml. <br>
 ```
 python predict.py --config <path_to_config.yml_in_the_out_dir> --test_dir <path_to_a_directory_stored_test_data> --out_dir <path_to_an_output_directory> --pretrained <path_to_a_pretrained_model> --cuda
