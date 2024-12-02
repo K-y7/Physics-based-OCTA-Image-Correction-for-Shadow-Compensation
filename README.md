@@ -1,7 +1,25 @@
 # Physics-based-OCTA-Image-Correction-for-Shadow-Compensation
 ## Intruduction
-Optical coherence tomography (OCT) is being widely applied in clinical studies to investigate insight of retina under the retinal pigment epithelium. Optical coherence tomography angiography (OCTA) is one of the functional extensions of OCT, for visualizing retinal circulation. Due to obstruction of light propagation, such as vitreous floaters or pupil boundaries, OCTA remains challenged by shadow artifacts that can disrupt volumetric data. Detecting and removing these shadow artifacts are crucial when quantifying indicators of retinal disease progression. We simplified an optical attenuation model of shadow formation in OCTA to a linear illumination transformation. And learn its parameters using an adversarial neural network. Our framework also
-consists of an existing neural networks for shadow detection. We experimented our method on 92 OCT/OCTA images of normal eyes, and compared the non-perfusion area (NPA), an index to measure retinal vascularity. The results shown that the NPA adjusted to reasonable range after image processing using our method and the average mean absolute error(MAE) values before and after artifact removal was 0.83.<br>
+Optical coherence tomography (OCT) is being widely applied in clinical studies to investigate insight into the
+ retina under the retinal pigment epithelium. Optical coherence
+ tomography angiography (OCTA) is one of the functional
+ extensions of OCT, for visualizing retinal circulation. Due
+ to obstruction of light propagation, such as vitreous floaters
+ or pupil boundaries, OCTA remains challenged by shadow
+ artifacts that can disrupt volumetric data. Detecting and
+ removing these shadow artifacts are crucial when quantifying
+ indicators of retinal disease progression. We simplified an
+ optical attenuation model of shadow formation in OCTA to a
+ linear illumination transformation. And learn its parameters
+ using an adversarial neural network. Our framework also
+ consists of a sub-network for shadows automatic detection.
+ We experimented our method on 28 OCTA images of normal
+ eyes and compared the non-perfusion area (NPA), an index to
+ measure retinal vascularity. The results showed that the NPA
+ adjusted to a reasonable range after image processing using our
+ method. Furthermore, we tested 150 OCTA images of synthesis
+ artifacts, and the mean absolute error(MAE) values reached
+ 0.83 after shadow removal.<br>
 This method was developed by Kang Wang from TGU-UOW laboratory based on SpA and SID.<br>
 Office Website：[TGU-UOW](http://tgu-uow.gitee.io/)
 ## Usage
